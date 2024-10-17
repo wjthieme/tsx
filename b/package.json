@@ -1,0 +1,12 @@
+{
+  "name": "@org/b",
+  "version": "1.0.0",
+  "type": "module",
+  "bin": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@org/a": "*"
+  }
+}

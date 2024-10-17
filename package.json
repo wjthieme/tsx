@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "bug": "tsx b/index.ts"
+  },
+  "workspaces": [
+    "a",
+    "b"
+  ],
+  "devDependencies": {
+    "tsx": "^4.10.2",
+    "typescript": "^5.4.5"
+  }
+}
